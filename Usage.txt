@@ -1,0 +1,36 @@
+This list Function v.2.0 is an update of v.1.0, which can only display a list of elements and returns the Number of element clicked on.
+
+The main updates added as:
+• New Mouse Hover Indication
+• New Close-option to the list... If you don't want to select anything from List.
+• Keyboard support added (Press- ESC to close a list)
+• Screen Size Adaptaion, as windows (If screen size is smaller than list, it will adjust)
+
+-----------------------------------------------------------------------------------------
+
+ This function helps in Adding a little GUI effect into your batch program...
+ It Prints simple List on the cmd console at specified X Y co-ordinate...
+ After printing, it stops For User 'mouse' input... ANd returns the Item No.
+ Which is clicked by User... 
+ 
+ IF 'X' is clicked, or Pressed ESC From Keyboard... then it will return 0 in 
+ the 'Errorlevel' Variable.
+
+ Syntax: call List [X] [Y] [color | - ] [Items 1] [Items 2] ...
+ Syntax: call List [help | /? | -h | -help]
+ Syntax: call List ver
+
+ Where:-
+ X		= X-ordinate of top-left corner of List
+ Y		= Y-co_ordinate of top-left corner of List
+ ver		= Version of List function
+ Items #	= The Items to display in the List... They maybe Enclosed within "".
+
+ This version 2.0 of List function contains much more GUI Capabilities.
+ As it uses batbox.exe and calls it only once at the end of calculation...
+ For the most efficient output. This ver. uses GetInput By Aacini too. For the
+ Advanced Output on the console.
+
+ Visit www.thebateam.org for more...
+ #TheBATeam
+
